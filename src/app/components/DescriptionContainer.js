@@ -17,7 +17,7 @@ export default function DescriptionContainer() {
         {
             id: 3,
             heading: 'Global Access',
-            subtext: 'Buyeres & Sellers Across UAE, UK, Asia'
+            subtext: 'Buyers & Sellers Across UAE, UK, Asia'
         }
     ]
     return (

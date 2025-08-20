@@ -15,13 +15,13 @@ export default function ServiceStrategyContainer() {
             id: 2,
             image: piechart,
             heading: "Fractional & porfolio guidance.",
-            subheading: "Navigate "
+            subheading: "Navigate fractional entry, asset bundles, and transitions with bespoke strategy."
         },
         {
             id: 3,
             image: kyc,
             heading: "Flag, tax & KYC/AML.",
-            subheading: "Expert "
+            subheading: "Expert navigation of global flag, tax, and compliance for truly international clients."
         },
     ]
     return (
