@@ -6,10 +6,9 @@ import ServiceCardContainer from "./components/ServiceCardContainer";
 import SellingText from "./components/SellingText";
 import DetailedServiceContainer from './components/DetailedServiceContainer';
 import ServiceStrategyContainer from "./components/ServiceStrategyContainer";
-import InsightsText from "./components/InsightsText";
-import InsightsCard from "./components/InsightsCard";
-import ServiceCard from "./components/ServiceCard";
 import InsightsContainer from "./components/InsightsContainer";
+import ContactUs from "./components/ContactUs";
+
 
 export default function Home() {
   return (
@@ -22,6 +21,7 @@ export default function Home() {
       <DetailedServiceContainer />
       <ServiceStrategyContainer />
       <InsightsContainer />
+      <ContactUs />
     </main>
   );
 }
