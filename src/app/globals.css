@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #F6F5F1;
   --foreground: #171717;
 }
 
@@ -16,6 +16,7 @@
   --color-customGray: #F2F2F2;
   --color-customGold: #BA9731;
   --color-customTan: #DACE84;
+  --color-customOffWhite: #F6F5F1;
 }
 
 @media (prefers-color-scheme: dark) {

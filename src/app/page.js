@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MainHero from "./components/MainHero";
-import HeroImageOne from "./components/HeroImageOne";
+import Hero from "./components/Hero";
 import DescriptionContainer from "./components/DescriptionContainer";
 import ServiceCardContainer from "./components/ServiceCardContainer";
 import SellingText from "./components/SellingText";
@@ -12,9 +12,8 @@ import ContactUs from "./components/ContactUs";
 
 export default function Home() {
   return (
-    <main className="flex flex-col mt-40 mb-20 space-y-40">
-      <MainHero />
-      <HeroImageOne />
+    <main className="flex flex-col mt-20 mb-20 space-y-40 pt-[56px]">
+      <Hero />
       <DescriptionContainer />
       <ServiceCardContainer />
       <SellingText />
