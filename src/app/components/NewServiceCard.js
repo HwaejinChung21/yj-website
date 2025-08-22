@@ -6,7 +6,7 @@ export default function ServiceCard({
     subheading
 }) {
     return (
-        <div className="relative w-full sm:w-80 md:w-96 lg:w-[400px] aspect-[1/1] rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+        <div className="relative w-full sm:w-80 md:w-96 lg:w-[375px] aspect-[1/1] rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
             
             {/* Image */}
             <Image
